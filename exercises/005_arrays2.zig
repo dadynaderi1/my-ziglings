@@ -1,3 +1,7 @@
+error: Unable to read input file: Is a directory
+source: Error while reading file '<stdin>'
+error: Unable to read input file: Is a directory
+source: Error while reading file '<stdin>'
 //
 // Zig has some fun array operators.
 //
@@ -26,7 +30,6 @@ pub fn main() void {
     // Please set this array concatenating the two arrays above.
     // It should result in: 1 3 3 7
     const leet = le ++ et;
-
     // (Problem 2)
     // Please set this array using repetition.
     // It should result in: 1 0 0 1 1 0 0 1 1 0 0 1

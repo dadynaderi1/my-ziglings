@@ -1,12 +1,10 @@
 const std = @import("std");
 const builtin = @import("builtin");
 const tests = @import("test/tests.zig");
-
 const Build = std.Build;
 const CompileStep = Build.CompileStep;
 const Step = Build.Step;
 const Child = std.process.Child;
-
 const assert = std.debug.assert;
 const join = std.fs.path.join;
 const print = std.debug.print;
